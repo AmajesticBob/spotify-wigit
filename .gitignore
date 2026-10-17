@@ -1,0 +1,15 @@
+# Xcode & macOS
+.DS_Store
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcscmblueprint
+
+# Swift Package Manager & Builds
+.build/
+.cache/
+.agents/
+DerivedData/
+
+# Logs & temp
+*.log
