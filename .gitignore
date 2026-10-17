@@ -1,15 +1,82 @@
-# Xcode & macOS
+# ==========================================
+# macOS System Files
+# ==========================================
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ==========================================
+# Xcode & Apple Developer Tools
+# ==========================================
+# Build products & intermediate files
+build/
+DerivedData/
+*.moved-aside
+
+# User-specific Xcode state (window positions, open tabs, personal breakpoints)
+*.xcuserstate
+*.xcuserdatad
 xcuserdata/
 *.xcworkspace/xcuserdata/
 *.xcodeproj/xcuserdata/
 *.xcscmblueprint
+*.xccheckout
+*.xcbkptlist
 
-# Swift Package Manager & Builds
+# Legacy Xcode settings
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# Code signing & provisioning (do not commit sensitive certificates or provisioning profiles)
+*.cer
+*.cert
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+
+# ==========================================
+# Swift Package Manager (SPM)
+# ==========================================
 .build/
-.cache/
-.agents/
-DerivedData/
+.swiftpm/
+Packages/
 
-# Logs & temp
+# ==========================================
+# Development & Editor Temporary Files
+# ==========================================
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains / AppCode
+.idea/
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+.#*
+\#*\#
+
+# Logs & Environment
 *.log
+.env
+.env.*
+!.env.example
+
+# Antigravity & Agent Caches
+.agents/
+.cache/
+scratch/
