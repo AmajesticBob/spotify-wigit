@@ -166,3 +166,4 @@ swift run --disable-sandbox SpotifyHarness --verify
 4. When prompted by macOS for Automation permission to control Spotify, click **OK** to authorize local scripting.
 # spotify-wigit
 # spotify-wigit
+# spotify-wigit
