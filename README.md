@@ -164,3 +164,4 @@ swift run --disable-sandbox SpotifyHarness --verify
    - Scroll to the bottom and click **Edit Widgets…**.
    - Add the Spotify Widget.
 4. When prompted by macOS for Automation permission to control Spotify, click **OK** to authorize local scripting.
+# spotify-wigit
